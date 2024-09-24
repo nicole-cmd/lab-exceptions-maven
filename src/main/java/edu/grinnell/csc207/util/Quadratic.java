@@ -1,11 +1,13 @@
 package edu.grinnell.csc207.util;
 
+import java.lang.Math;
+
 /**
  * Quadratic expressions (of the form ax^2 + bx + c).
  *
  * @author Samuel A. Rebelsky
- * @author YOUR NAME HERE
- * @author YOUR NAME HERE
+ * @author Richard
+ * @author Nicole
  */
 public class Quadratic {
   // +--------+------------------------------------------------------
@@ -95,7 +97,7 @@ public class Quadratic {
    *   is only one).
    */
   public double smallerRoot() {
-    return 0.0; // STUB
+    return ((0.0 - this.b - Math.sqrt((double)(this.b * this.b - (4.0 * this.a *this.c)))) / 2.0 * (double)this.a);
   } // smallerRoot
 
   /**
