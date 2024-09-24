@@ -2,10 +2,10 @@
 
 A lab on exceptions.
 
-Authors:
+Authors: 
 
 * Samuel A. Rebelsky (starter code).
-* Your Name Here
-* Your Name Here
+* Nicole Gorrell
+* Richard Lin
 
-This code may be found at <URL>.
+This code may be found at <https://github.com/nicole-cmd/lab-exceptions-maven>.
